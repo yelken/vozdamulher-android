@@ -31,9 +31,8 @@ dependencies {
     compile 'com.android.support:design:25.3.1'
     compile 'com.google.firebase:firebase-auth:10.0.1'
     compile 'com.facebook.android:facebook-android-sdk:4.20.0'
-//    compile 'com.google.android.gms:play-services:10.2.1'
+    compile 'com.ibm.watson.developer_cloud:android-sdk:0.2.3'
 
     testCompile 'junit:junit:4.12'
 }
-
 apply plugin: 'com.google.gms.google-services'
