@@ -1,7 +1,9 @@
-package com.thougthworks.vozdamulher;
+package com.thougthworks.vozdamulher.activity;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+
+import com.thougthworks.vozdamulher.R;
 
 public class MainActivity extends AppCompatActivity {
 
