@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "235893335829-8qj0f8k80or1usct0l74drc3r6fuqtrn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thougthworks.vozdamulher",
+            "certificate_hash": "75ee02e1b485968c20e3fd7b3cdef0ff3dbbf4ba"
+          }
+        },
+        {
           "client_id": "235893335829-rl53mgsvp5hf9a1ig09dggmf0es9pl9r.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
