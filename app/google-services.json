@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "235893335829",
+    "firebase_url": "https://voz-da-mulher.firebaseio.com",
+    "project_id": "voz-da-mulher",
+    "storage_bucket": "voz-da-mulher.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235893335829:android:a196bc8e8223f11e",
+        "android_client_info": {
+          "package_name": "com.thougthworks.vozdamulher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235893335829-rl53mgsvp5hf9a1ig09dggmf0es9pl9r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thougthworks.vozdamulher",
+            "certificate_hash": "927267b38d3d2cf4839bf03094b0190cea41d86c"
+          }
+        },
+        {
+          "client_id": "235893335829-0m15ioit2q3hrmj04dkak17ut8prvili.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1eQ0X6DFbM4kvO7f198p_depd5ZXeLbY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235893335829-0m15ioit2q3hrmj04dkak17ut8prvili.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
