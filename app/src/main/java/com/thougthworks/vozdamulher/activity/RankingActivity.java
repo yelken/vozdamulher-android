@@ -11,6 +11,7 @@ import android.widget.Toast;
 import com.thougthworks.vozdamulher.R;
 import com.thougthworks.vozdamulher.component.BusListAdapter;
 import com.thougthworks.vozdamulher.model.Bus;
+import com.google.firebase.crash.FirebaseCrash;
 
 import java.util.ArrayList;
 
@@ -42,6 +43,8 @@ public class RankingActivity extends AppCompatActivity {
 
         BusListAdapter rewardsListAdapter = new BusListAdapter (this, R.layout.layout_bus_item, buses);
         listViewBus.setAdapter(rewardsListAdapter);
+
+        FirebaseCrash.log("Ranking Activity Created");
 
     }
 
