@@ -3,6 +3,7 @@
 
     <item
         is-multidex="true"
+<<<<<<< HEAD
         jar="/home/ramon/StudioProjects/VozDaMulher/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
@@ -18,6 +19,41 @@
         revision="25.0.1"
         sha1="17e3af3d4fdee269fe3c5e920090eedbdbfe4a7a">
         <dex dex="/home/ramon/StudioProjects/VozDaMulher/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_24b6f51ac42c773b75d1d906db4556057123dbb7/classes.dex" />
+=======
+        jar="/Users/yelkengonzales/.android/build-cache/80f93f97b6b4dd079cbcfe5f346e7944d8bf41d9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5a424dda1dfed15a9ca112aa128107b948e30e82">
+        <dex dex="/Users/yelkengonzales/vozdamulher-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0ef3ee3a911190140267a5ab5ae044d7f17b83c0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yelkengonzales/vozdamulher-android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/yelkengonzales/vozdamulher-android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e05770e322a1289ad18ccf1da2d6dfbe9726970a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yelkengonzales/vozdamulher-android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c4063990a70640783755d3e36456eeb359edd0fe">
+        <dex dex="/Users/yelkengonzales/vozdamulher-android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_742e6ff727fa87a80e01f91a820644ed09594ad4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yelkengonzales/.android/build-cache/52f2547397c0634e666aed5b42d1b276199228e9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b215e312bdc1ee7bfda31674eab5df8bad45c014">
+        <dex dex="/Users/yelkengonzales/vozdamulher-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fb2f54e879038dcf7733f379d3c58014cd9f7f9d/classes.dex" />
+>>>>>>> 19564ffd3f8d8d77660c31591b839b2480279e37
     </item>
 
 </items>

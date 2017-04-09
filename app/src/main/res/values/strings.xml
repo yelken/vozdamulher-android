@@ -3,6 +3,7 @@
     <string name="title_activity_ranking">Ranking</string>
     <string name="title_activity_sucess">Sucesso</string>
     <string name="title_activity_splash">Voz da Mulher</string>
+<<<<<<< HEAD
     <string name="title_activity_form">Formulário</string>
     <string name="title_activity_login">FacebookLogin</string>
 
@@ -28,5 +29,31 @@
     <string name="logout">Encerrar sessão</string>
     <string name="firebase_error_login">Erro ao iniciar sessão no Firebase</string>
 
+=======
+
+
+
+    <!-- Mockup storage example   !-->
+    <string name="camera_button_text">Upload</string>
+    <string name="sign_in_prompt">Sign In to begin</string>
+    <string name="take_photo_prompt">Upload a Photo</string>
+    <string name="download">Download</string>
+    <string name="sign_in_anonymously">Sign In</string>
+    <string name="rationale_storage">This sample reads images from your camera to demonstrate uploading.</string>
+    <string name="label_link">Link to Uploaded File</string>
+    <string name="label_download">Download File</string>
+    <string name="log_out">Log out</string>
+    <string name="success">Success</string>
+
+    <string name="progress_downloading">Downloading…</string>
+    <string name="progress_uploading">Uploading…</string>
+    <string name="progress_auth">Signing In…</string>
+
+    <string name="upload_success">Upload finished</string>
+    <string name="upload_failure">Upload failed</string>\
+
+    <string name="download_success">Download finished</string>
+    <string name="download_failure">Download failure</string>
+>>>>>>> 19564ffd3f8d8d77660c31591b839b2480279e37
 
 </resources>
