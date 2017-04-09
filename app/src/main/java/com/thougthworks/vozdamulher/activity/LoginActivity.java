@@ -77,7 +77,7 @@ public class LoginActivity extends AppCompatActivity {
                 public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                     FirebaseUser user = firebaseAuth.getCurrentUser();
                     if (user != null) {
-                        goMainScreen();
+                        goProfileScreen();
                     }
                 }
             };
@@ -100,8 +100,8 @@ public class LoginActivity extends AppCompatActivity {
             });
         }
 
-        private void goMainScreen() {
-            Intent intent = new Intent(this, MainActivity.class);
+        private void goProfileScreen() {
+            Intent intent = new Intent(this, ProfileFacebook.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(intent);
         }
