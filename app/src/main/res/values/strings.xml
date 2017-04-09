@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Voz da Mulher</string>
+    <string name="title_activity_ranking">Ranking</string>
+    <string name="title_activity_sucess">Sucesso</string>
+    <string name="title_activity_splash">Voz da Mulher</string>
 </resources>

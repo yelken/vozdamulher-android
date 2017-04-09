@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/hortoni/AndroidStudioProjects/vozdamulher-android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3e6fc773a65b92cbbf5e755ba1fa24c0ea91c34b">
+        <dex dex="/Users/hortoni/AndroidStudioProjects/vozdamulher-android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4e130cfa80531cf3a61425bee3c4f208a0c2a886/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hortoni/AndroidStudioProjects/vozdamulher-android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/hortoni/AndroidStudioProjects/vozdamulher-android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_6248db33132efa099d21831dccc6b85fe2151b93/classes.dex" />
+    </item>
+
+</items>
