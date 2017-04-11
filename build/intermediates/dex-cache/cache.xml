@@ -3,7 +3,96 @@
 
     <item
         is-multidex="true"
-<<<<<<< HEAD
+        jar="/home/ramon/.android/build-cache/2360b46438aa503d75be8bbd3614e01578d62a66/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b2349ddfe04831042844cbf055e5a072da37ddf8">
+        <dex dex="/home/ramon/StudioProjects/VozDaMulher/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_accdb75313d21401cef73c4c805753c006ef3a6e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ramon/.android/build-cache/933b89e4be4c832d899aa5b4c8fbe01d1d57feb4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a1aa1dd9917e887bfe732cc5e561ae6ae8f9a84a">
+        <dex dex="/home/ramon/StudioProjects/VozDaMulher/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5a9a9151a6c081009743896b5de83cb33befac8c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ramon/.android/build-cache/19c1068c01b641c0c84b9af1fc534e2f3a04e5aa/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="dbae35d7fc3427d30bef0037bdf61ad0d8d984f8">
+        <dex dex="/home/ramon/StudioProjects/VozDaMulher/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b39e8bfeb8044d66a1ea53a9a60417df9556a6a0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ramon/.android/build-cache/d945b87da2b93b825f882802459cc6d612ab32f4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4b42a61cd5924f28e95894e859e6abe57847e2f3">
+        <dex dex="/home/ramon/StudioProjects/VozDaMulher/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a88bccacdf31fcd900dc8712f7271503acde9d00/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ramon/.android/build-cache/a2bab90ebe7fa89e4063a19304d0c243c3c346e5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c7e655e4fd5d01177dfec3daadd938ce2d1f9b03">
+        <dex dex="/home/ramon/StudioProjects/VozDaMulher/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c10ddc184a0d1076daa7b331b8e9f680297244b1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ramon/.android/build-cache/5af28cdf554a271ec9c3e61c3403dc9ba76a0e18/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="19696dc358ac668e341f28c41e3387d61ccdb81d">
+        <dex dex="/home/ramon/StudioProjects/VozDaMulher/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a03e4eafbfd219d08e189ad9855bd01295000544/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ramon/.android/build-cache/f03d96a933aa8f64f32cf5701018e61ea478452f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="399f75732ff1ac159f9e73611536f1508bf18d3b">
+        <dex dex="/home/ramon/StudioProjects/VozDaMulher/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_62bcf852395b740322c9a7c94e66e9b812e54e6b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ramon/.android/build-cache/a9a38612709b6c936a36e951fda9ae6c84100cbc/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0a5d5553c308643a9022f15513ebdd59e9c78d82">
+        <dex dex="/home/ramon/StudioProjects/VozDaMulher/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e168e70704eca85309cf86d6d02f0dbd2cd905f7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ramon/.android/build-cache/f0ba91066ac13cb705768d50fed3ae8345dcc171/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2a7ffe939ffd830b5d4052f3c1c4c235923790ce">
+        <dex dex="/home/ramon/StudioProjects/VozDaMulher/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_948c73baf87542c614e28e1a4acadf2f2a90f335/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ramon/.android/build-cache/fbbe6ed45c3ac54983522e6a119ee02ccf3d57e3/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="888983f51cf34f57a93ff16832552f2f15937212">
+        <dex dex="/home/ramon/StudioProjects/VozDaMulher/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_893dcd627b2870cab4fff359e892d06d1174b27b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/ramon/StudioProjects/VozDaMulher/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
@@ -13,47 +102,66 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/ramon/StudioProjects/VozDaMulher/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/home/ramon/.android/build-cache/598e1e55a2e1c5671447037906e12feb7f4ec1a5/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="17e3af3d4fdee269fe3c5e920090eedbdbfe4a7a">
-        <dex dex="/home/ramon/StudioProjects/VozDaMulher/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_24b6f51ac42c773b75d1d906db4556057123dbb7/classes.dex" />
-=======
-        jar="/Users/yelkengonzales/.android/build-cache/80f93f97b6b4dd079cbcfe5f346e7944d8bf41d9/output/jars/classes.jar"
+        sha1="d0a843615f3b5fa3a080497709f5436696149a09">
+        <dex dex="/home/ramon/StudioProjects/VozDaMulher/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9bc516629ae636c0676405a38ab89f79a86ea05c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ramon/.android/build-cache/506400ec8c611437f2f620e2bc1d7df63786d63a/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="5a424dda1dfed15a9ca112aa128107b948e30e82">
-        <dex dex="/Users/yelkengonzales/vozdamulher-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0ef3ee3a911190140267a5ab5ae044d7f17b83c0/classes.dex" />
+        <dex dex="/home/ramon/StudioProjects/VozDaMulher/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b5ce4262426e2fd970cb0230e5fecdf91530213a/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/yelkengonzales/vozdamulher-android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/home/ramon/.android/build-cache/e43cba695e24a28660d14515cef75a13d2702223/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="/Users/yelkengonzales/vozdamulher-android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e05770e322a1289ad18ccf1da2d6dfbe9726970a/classes.dex" />
+        sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
+        <dex dex="/home/ramon/StudioProjects/VozDaMulher/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c166bd274f1a18ee688c35b1288a77f3638d9ef4/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/yelkengonzales/vozdamulher-android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="c4063990a70640783755d3e36456eeb359edd0fe">
-        <dex dex="/Users/yelkengonzales/vozdamulher-android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_742e6ff727fa87a80e01f91a820644ed09594ad4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/yelkengonzales/.android/build-cache/52f2547397c0634e666aed5b42d1b276199228e9/output/jars/classes.jar"
+        jar="/home/ramon/.android/build-cache/deca4f2b1649e401365774309138f548d38644a2/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="b215e312bdc1ee7bfda31674eab5df8bad45c014">
-        <dex dex="/Users/yelkengonzales/vozdamulher-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fb2f54e879038dcf7733f379d3c58014cd9f7f9d/classes.dex" />
->>>>>>> 19564ffd3f8d8d77660c31591b839b2480279e37
+        <dex dex="/home/ramon/StudioProjects/VozDaMulher/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1acd6ea17bc9ecfe37ae11ff6682b0aadf12a736/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ramon/.android/build-cache/628243ac74ca396d10ff52fb0e80d71cefe359a1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
+        <dex dex="/home/ramon/StudioProjects/VozDaMulher/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bcc1a4057518dbb2c87ded3b021face21d01ffb9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ramon/StudioProjects/VozDaMulher/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2d8b181177d5ea4e104f46bf0a5339d8ebdef0f0">
+        <dex dex="/home/ramon/StudioProjects/VozDaMulher/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_24b6f51ac42c773b75d1d906db4556057123dbb7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ramon/.android/build-cache/c2527d7ac165ff02e5680f2ae896972effc43df1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="44098e691b36776973374ac03afe0225b17f8a74">
+        <dex dex="/home/ramon/StudioProjects/VozDaMulher/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_83aace5b0e4b89a9a6e2ca35bc4f0b44ad57342d/classes.dex" />
     </item>
 
 </items>

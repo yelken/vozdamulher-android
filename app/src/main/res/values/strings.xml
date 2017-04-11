@@ -1,11 +1,11 @@
 <resources>
+
     <string name="app_name">Voz da Mulher</string>
     <string name="title_activity_ranking">Ranking</string>
     <string name="title_activity_sucess">Sucesso</string>
     <string name="title_activity_splash">Voz da Mulher</string>
-<<<<<<< HEAD
     <string name="title_activity_form">Formulário</string>
-    <string name="title_activity_login">FacebookLogin</string>
+    <string name="title_activity_login">Login</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
@@ -20,7 +20,6 @@
         completions."
     </string>
     <string name="action_sign_in_facebook">Sign in com Facebook</string>
-    <!--<string name="facebook_app_id">112993499108891</string>-->
     <string name="facebook_app_id">1148125398666946</string>
 
     <string name="welcome">Bem vindo</string>
@@ -28,9 +27,6 @@
     <string name="error_login">Não foi possível acessar</string>
     <string name="logout">Encerrar sessão</string>
     <string name="firebase_error_login">Erro ao iniciar sessão no Firebase</string>
-
-=======
-
 
 
     <!-- Mockup storage example   !-->
@@ -54,6 +50,5 @@
 
     <string name="download_success">Download finished</string>
     <string name="download_failure">Download failure</string>
->>>>>>> 19564ffd3f8d8d77660c31591b839b2480279e37
 
 </resources>

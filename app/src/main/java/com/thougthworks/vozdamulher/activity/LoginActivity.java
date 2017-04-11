@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
@@ -31,87 +32,110 @@ import java.util.Arrays;
 
 public class LoginActivity extends AppCompatActivity {
 
-
-     LoginButton loginButton;
+    Button btnConfirmar;
+    LoginButton loginButton;
     private CallbackManager callbackManager;
 
-        private FirebaseAuth firebaseAuth;
-        private FirebaseAuth.AuthStateListener firebaseAuthListener;
+    private FirebaseAuth firebaseAuth;
+    private FirebaseAuth.AuthStateListener firebaseAuthListener;
+    private Button btnSemIdentificacao;
 
-        private ProgressBar progressBar;
+    private ProgressBar progressBar;
 
-        @Override
-        protected void onCreate(Bundle savedInstanceState) {
-            super.onCreate(savedInstanceState);
-            setContentView(R.layout.login_activity);
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.login_activity);
 
-            progressBar = (ProgressBar) findViewById(R.id.progressBar);
+        progressBar = (ProgressBar) findViewById(R.id.progressBar);
 
-            callbackManager = CallbackManager.Factory.create();
+        callbackManager = CallbackManager.Factory.create();
 
-            loginButton = (LoginButton) findViewById(R.id.loginButton);
+        loginButton = (LoginButton) findViewById(R.id.loginButton);
 
-            loginButton.setReadPermissions(Arrays.asList("email"));
+        loginButton.setReadPermissions(Arrays.asList("email"));
 
-            loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
-                @Override
-                public void onSuccess(LoginResult loginResult) {
-                    handleFacebookAccessToken(loginResult.getAccessToken());
+        loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
+            @Override
+            public void onSuccess(LoginResult loginResult) {
+                handleFacebookAccessToken(loginResult.getAccessToken());
+            }
+
+            @Override
+            public void onCancel() {
+                Toast.makeText(getApplicationContext(), R.string.cancel_login, Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onError(FacebookException error) {
+                Toast.makeText(getApplicationContext(), R.string.error_login, Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        firebaseAuth = FirebaseAuth.getInstance();
+
+        firebaseAuthListener = new FirebaseAuth.AuthStateListener() {
+            @Override
+            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
+                FirebaseUser user = firebaseAuth.getCurrentUser();
+                if (user != null) {
+                    goProfileScreen();
                 }
+            }
+        };
 
-                @Override
-                public void onCancel() {
-                    Toast.makeText(getApplicationContext(), R.string.cancel_login, Toast.LENGTH_SHORT).show();
+        btnSemIdentificacao = (Button) findViewById(R.id.btn_sem_identificacao);
+
+        btnSemIdentificacao.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(LoginActivity.this, SucessActivity.class);
+                startActivity(intent);
+            }
+        });
+
+//        btnConfirmar = (Button) findViewById(R.id.btn_confirmar);
+//
+//        btnConfirmar.setOnClickListener(new View.OnClickListener(){
+//            @Override
+//            public void onClick(View view) {
+//
+//                Intent intent = new Intent(LoginActivity.this, ProfileFacebook.class);
+//                startActivity(intent);
+//            }
+//        });
+
+    }
+
+    private void handleFacebookAccessToken(AccessToken accessToken) {
+        progressBar.setVisibility(View.VISIBLE);
+        loginButton.setVisibility(View.GONE);
+
+        AuthCredential credential = FacebookAuthProvider.getCredential(accessToken.getToken());
+        firebaseAuth.signInWithCredential(credential).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+            @Override
+            public void onComplete(@NonNull Task<AuthResult> task) {
+                if (!task.isSuccessful()) {
+                    Toast.makeText(getApplicationContext(), R.string.firebase_error_login, Toast.LENGTH_LONG).show();
                 }
+               progressBar.setVisibility(View.GONE);
+                loginButton.setVisibility(View.VISIBLE);
+            }
+        });
+    }
 
-                @Override
-                public void onError(FacebookException error) {
-                    Toast.makeText(getApplicationContext(), R.string.error_login, Toast.LENGTH_SHORT).show();
-                }
-            });
+    private void goProfileScreen() {
+        Intent intent = new Intent(LoginActivity.this, ProfileFacebook.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
+    }
 
-            firebaseAuth = FirebaseAuth.getInstance();
-
-            firebaseAuthListener = new FirebaseAuth.AuthStateListener() {
-                @Override
-                public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-                    FirebaseUser user = firebaseAuth.getCurrentUser();
-                    if (user != null) {
-                        goProfileScreen();
-                    }
-                }
-            };
-        }
-
-        private void handleFacebookAccessToken(AccessToken accessToken) {
-            progressBar.setVisibility(View.VISIBLE);
-            loginButton.setVisibility(View.GONE);
-
-            AuthCredential credential = FacebookAuthProvider.getCredential(accessToken.getToken());
-            firebaseAuth.signInWithCredential(credential).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
-                @Override
-                public void onComplete(@NonNull Task<AuthResult> task) {
-                    if (!task.isSuccessful()) {
-                        Toast.makeText(getApplicationContext(), R.string.firebase_error_login, Toast.LENGTH_LONG).show();
-                    }
-                   progressBar.setVisibility(View.GONE);
-                    loginButton.setVisibility(View.VISIBLE);
-                }
-            });
-        }
-
-        private void goProfileScreen() {
-            Intent intent = new Intent(this, ProfileFacebook.class);
-            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-            startActivity(intent);
-        }
-
-        @Override
-        protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-            super.onActivityResult(requestCode, resultCode, data);
-            callbackManager.onActivityResult(requestCode, resultCode, data);
-        }
-
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        callbackManager.onActivityResult(requestCode, resultCode, data);
+    }
 
 
 }

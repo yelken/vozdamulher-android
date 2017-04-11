@@ -1,10 +1,12 @@
 package com.thougthworks.vozdamulher.model;
 
+import java.io.Serializable;
+
 /**
  * Created by hortoni on 08/04/17.
  */
 
-public class Bus {
+public class Bus implements Serializable{
     private String name;
     private int number;
     private int amount;
@@ -18,6 +20,10 @@ public class Bus {
     public Bus(String name, int number) {
         this.name = name;
         this.number = number;
+    }
+
+    public Bus() {
+
     }
 
     public String getName() {

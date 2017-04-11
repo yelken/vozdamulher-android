@@ -30,4 +30,10 @@
         android:text="Email"
         android:textSize="16sp" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirmar"
+        android:id="@+id/btn_confirmar"/>
+
 </android.support.constraint.ConstraintLayout>

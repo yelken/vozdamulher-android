@@ -60,7 +60,7 @@ public class BusAutoCompleteAdapter extends ArrayAdapter<Bus> {
             if(constraint != null) {
                 suggestions.clear();
                 for (Bus bus: itemsAll) {
-                    if(bus.getName().toLowerCase().startsWith(constraint.toString().toLowerCase())){
+                    if(bus.getName().toLowerCase().contains(constraint.toString().toLowerCase())){
                         suggestions.add(bus);
                     }
                 }

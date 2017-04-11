@@ -48,6 +48,7 @@
         android:gravity="center_vertical|center_horizontal"
         android:src="@drawable/ic_play"
         android:text="Play"
+        android:id="@+id/play_bt"
         android:textColor="#fff" />
 
         <ImageView
@@ -56,6 +57,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_marginRight="16dp"
+        android:id="@+id/img_check"
         android:src="@drawable/ic_check_audio"/>
 
     </RelativeLayout>
